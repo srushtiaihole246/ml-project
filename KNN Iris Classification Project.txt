@@ -1,0 +1,57 @@
+# KNN Iris Classification Project
+
+Simple overview of K-Nearest Neighbors implementation on the Iris dataset.
+
+## Description
+
+This Jupyter notebook demonstrates a complete KNN classification pipeline on the Iris dataset. It covers data loading, exploration, preprocessing, model training with different k values (3, 5, 7), and evaluation achieving perfect 1.0 accuracy and F1-scores for both uniform and distance-weighted KNN. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/146075107/a2fc53b7-1d73-42d7-8de8-d05006a6ab37/Gayatri-knn.ipynb)
+
+## Getting Started
+
+### Dependencies
+
+- Python 3.x
+- numpy
+- pandas  
+- seaborn
+- matplotlib
+- scikit-learn
+
+### Installing
+
+1. Clone/download the notebook file
+2. Install dependencies: pip install numpy pandas seaborn matplotlib scikit-learn
+3. Open in Jupyter notebook environment
+
+### Executing Program
+
+
+jupyter notebook KNN-Iris-Project.ipynb
+
+
+Run cells sequentially to see:
+- Dataset exploration and visualization
+- Train/test split
+- KNN model training and evaluation
+
+## Usage
+
+1. Execute all cells for complete analysis pipeline
+2. Review EDA visualizations (boxplots, dataset info)
+3. Observe perfect model performance results
+
+## Results
+
+| K Value | Accuracy | F1-Score (Regular) | F1-Score (Weighted) |
+|---------|----------|-------------------|---------------------|
+| 3       | 1.0      | 1.0               | 1.0                 |
+| 5       | 1.0      | 1.0               | 1.0                 |
+| 7       | 1.0      | 1.0               | 1.0                 | [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/146075107/a2fc53b7-1d73-42d7-8de8-d05006a6ab37/srushti-knn.ipynb)
+
+## Key Features Analyzed
+- Sepal length/width, petal length/width
+- Species classification (setosa, versicolor, virginica)
+- Outlier detection via boxplots
+- Data quality checks (nulls, duplicates)
+
+Perfect scores reflect Iris dataset's high separability using petal features. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/146075107/a2fc53b7-1d73-42d7-8de8-d05006a6ab37/srushti-knn.ipynb)
